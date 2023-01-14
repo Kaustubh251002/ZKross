@@ -1,0 +1,22 @@
+{
+  "1337": {
+    "handler": "0x9492DdAE06A8bC54df5E47e88a29107Aff71A488",
+    "linker": "0x9492DdAE06A8bC54df5E47e88a29107Aff71A488",
+    "feeToken": "0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4",
+    "feeForNFT": "1000000000000000",
+    "feeTokenForNFT": "0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4",
+    "uri": "abcd.xyz",
+    "ContractAdd": "0xf8e81D47203A594245E36C48e151709F0C19fBe8",
+    "crossChainGas": "100000"
+  },
+  "43114": {
+    "handler": "0xB41d9B7E27757C1081092C57880641c3D4a276cC",
+    "linker": "0xabcdc08242E4395B0f78E476af4b6c2659f1DBC8",
+    "feeToken": "0xf44Ff799eA2bBFeC96f9A50498209AAc3C2b3b8b",
+    "feeForNFT": "1000000000000000",
+    "feeTokenForNFT": "0xf44Ff799eA2bBFeC96f9A50498209AAc3C2b3b8b",
+    "uri": "abcd.xyz",
+    "crossChainGas": "100000",
+    "ContractAdd": "0xbF0bEb81558a9B8A5c574822C608aA041A4acd26"
+  }
+}

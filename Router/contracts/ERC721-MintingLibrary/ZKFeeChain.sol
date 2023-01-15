@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../FeeChain.sol";
+import "./FeeChain.sol";
 
 contract SampleFeeChain is OnFeeChain {
   using SafeERC20 for IERC20;

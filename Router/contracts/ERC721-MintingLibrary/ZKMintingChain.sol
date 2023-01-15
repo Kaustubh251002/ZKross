@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../MintingChain.sol";
+import "./MintingChain.sol";
 
 contract SampleMintingChain is OnMintingChain {
   using SafeERC20 for IERC20;

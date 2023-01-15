@@ -132,11 +132,7 @@ contract PlonkVerifier {
 
                 inv := t
             }
-            
-            ///////
-            // Computes the inverse of an array of values
-            // See https://vitalik.ca/general/2018/07/21/starks_part_3.html in section where explain fields operations
-            //////
+
             function inverseArray(pVals, n) {
     
                 let pAux := mload(0x40)     // Point to the next free position
@@ -195,7 +191,6 @@ contract PlonkVerifier {
                 checkField(mload(add(pProof, pEval_zw)))
                 checkField(mload(add(pProof, pEval_r)))
 
-                // Points are checked in the point operations precompiled smart contracts
             }
             
             function calculateChallanges(pProof, pMem, pPublic) {

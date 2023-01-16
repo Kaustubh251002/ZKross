@@ -2,16 +2,16 @@
 
 pragma solidity ^0.8.0;
 
-import "../FeeChain.sol";
+import "./FeeChain.sol";
 
-contract SampleFeeChain is OnFeeChain {
+contract ZKFeeChain is OnFeeChain {
   using SafeERC20 for IERC20;
   address public owner;
 
   constructor(
     string memory name_,
     string memory symbol_,
-    uint8 mintingChainID_,
+    uint256 mintingChainID_,
     address genericHandler_
   ) OnFeeChain(name_, symbol_, mintingChainID_, genericHandler_) {
     owner = msg.sender;

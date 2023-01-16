@@ -4,14 +4,14 @@ pragma solidity ^0.8.0;
 
 import "./MintingChain.sol";
 
-contract SampleMintingChain is OnMintingChain {
+contract ZKMintingChain is OnMintingChain {
   using SafeERC20 for IERC20;
   address public owner;
 
   constructor(
     string memory name_,
     string memory symbol_,
-    uint256 MaxTokenId_,
+    uint16 MaxTokenId_,
     address genericHandler_
   ) OnMintingChain(name_, symbol_, MaxTokenId_, genericHandler_) {
     owner = msg.sender;

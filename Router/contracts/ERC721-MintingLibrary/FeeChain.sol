@@ -28,7 +28,7 @@ abstract contract OnFeeChain is ERC721, IERC721Receiver, RouterCrossTalk {
   constructor(
     string memory name_,
     string memory symbol_,
-    uint8 mintingChainID_,
+    uint16 mintingChainID_,
     address genericHandler_
   ) ERC721(name_, symbol_) RouterCrossTalk(genericHandler_) {
     mintingChainID = mintingChainID_;

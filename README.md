@@ -35,4 +35,7 @@ ZKPs have been further developed to create Non-Interactive ZKPs, which require o
 
 <hr />
 
+<img src="./ZKRoss-workflow.jpeg" /><br />
+
+
 ### Through the use of the combination of above mentioned technologies, things like patent licensing or house renting agreements through blockchain, or even across chains can be made possible in the near future.
